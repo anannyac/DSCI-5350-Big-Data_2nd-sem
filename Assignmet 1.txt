@@ -1,0 +1,3 @@
+--query 'select accounts.last_name, accounts.city, device.num, device.name, Count(websitehit.hit_num) AS websitehit_count
+FROM accounts JOIN websitehit ON (accounts.act_num = websitehit.account_id)
+JOIN device ON (device.device_num = websitehit.device_id) WHERE $CONDITIONS AND Count(websitehit.hit_num) > 30'

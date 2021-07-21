@@ -1,0 +1,48 @@
+Quiz 1 review:
+--------------
+
+1. cp was correct , but I gave mv
+2. error message where it was written directory already exists
+3. most optimal solution is to create 2 server locations for that company so that they don't loose data in any disaster.
+But I selected 3 which was wrong.
+
+========================================================
+
+Midterm review:
+---------------
+
+1. When using query option:
+a. You must have the literal WHERE $CONDITIONS
+b. You must have target dir option
+
+Page 15 - Lecture 3 slide
+
+2. Note that there is a --target-dir option as
+well which creates the tables in the target dir
+without creating sub directories.
+
+Page 9- Lecture 3 slide
+
+
+3.Index related question:
+There were 2 options which were correct .
+I chose those 2. But on top of that, I chose one more wrong option as well. So I got partial marks. (1.25/2.5)
+
+
+4.
+In place of the map name 'Vehicle', I chose the key word 'map' itself making the answer wrong.
+
+
+5.
+Page 30 and 31 - Lecture 3 slide
+
+Use the --staging-table parameter in your sqoop command for all or nothing export.
+Sqoop will load to the staging table first and then will load to
+the table specified in the table parameter
+•
+The load to the table destination will only happen when
+the staging table is completely loaded
+•
+Both staging and final tables should have the same metadata.
+
+==============================================================================================================
